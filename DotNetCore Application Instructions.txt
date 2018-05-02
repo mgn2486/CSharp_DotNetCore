@@ -1,0 +1,7 @@
+Instructions
+
+1. Install the .Net Core SDK
+2. Install the single page templates by running the command
+   "  dotnet new --install Microsoft.AspNetCore.SpaTemplates::*  "
+3. To see the templates avaialable for you to use use the command:
+    " dotnet new  "
