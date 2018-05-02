@@ -5,3 +5,37 @@ Instructions
    "  dotnet new --install Microsoft.AspNetCore.SpaTemplates::*  "
 3. To see the templates avaialable for you to use use the command:
     " dotnet new  "
+
+So the above instructions 2 and 3 help us create new ASP.Net SPA templates that is ASP.NET: 
+     a) Web application, 
+     b) Aurelia, 
+     c) Knockout.js , 
+     d) Vue.js , 
+     e) Web API . 
+
+There is an alternative to creating these templates that is using YEOMAN. 
+
+1st we must install Yoeman globally into our machine
+
+3a. To create the templates using YOEMAN we use the command:
+   "  npm install -g yo generator-aspnetcore-spa  "
+
+3b.  Now we can "Scaffold" the ASP.Net Template using Yoeman:
+   " yo aspnetcore-spa"
+
+4. Now we scaffold our project using one of the given templates:
+   
+	 i) Create a directory for your project.
+	ii) Create a 3 more directories that we will us to scaffold different application templates thus
+		a. Angular 
+		b. React
+		c. React and Redux
+5. Now to scaffold a new angular project, 
+change directory to the directory of the one maching you dont mind keeping
+
+6. write the command:
+      " dotnet new angular "
+	- Make sure you have Dot Net Core SDK version 2.0 or later.
+
+
+
