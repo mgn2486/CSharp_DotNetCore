@@ -37,5 +37,19 @@ change directory to the directory of the one maching you dont mind keeping
       " dotnet new angular "
 	- Make sure you have Dot Net Core SDK version 2.0 or later.
 
+To run our project from the command line we must first restore both dotnet and npm dependencies.
+
+7. To restore the Dot Net dependencies we will run:
+	" dotnet restore  "
+
+8. To restore our NPM dependencies we must run:
+	" npm  install"
+
+Now scaffold the other templates like the React, React and Redux into their respective folders.ls
+ 
+9. Now to run the application via command line we use
+	"  dotnet run"
+	- Application will be executed on localhost:5000.
+
 
 
